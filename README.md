@@ -1,5 +1,5 @@
 # Redux-training
-Redux training with React Native
+Redux training with React Native\
 Reference [jeffgukang's react-native tutorial](https://jeffgukang.github.io/react-native-tutorial/docs/state-tutorial/redux-tutorial/index-kr.html)
 
 ### Redux
