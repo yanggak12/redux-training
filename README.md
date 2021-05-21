@@ -9,10 +9,10 @@ Reference [jeffgukang's react-native tutorial](https://jeffgukang.github.io/reac
 ```
 npm install --save redux react-redux
 ```
-### Redux
+### redux
 Status container for Javascript apps.
 
-### React Redux
+### react-redux
 It provides Provider component and connect method to make it easier to develop React + Redux.
 
 ```
