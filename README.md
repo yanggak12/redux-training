@@ -49,8 +49,11 @@ index.js
 </ul>
 
 <h2><a href="https://github.com/yanggak12/Redux-training/tree/main/app/actions">4. Reducer</a></h2>
+<ul>
+  <li><a href="https://github.com/yanggak12/Redux-training/blob/main/app/reducers/index.js">index.js</a></li>
+</ul>
 
 <h2><a href="https://github.com/yanggak12/Redux-training/blob/main/app">5. Provider</a></h2>
 <ul>
-  <li><a href="https://github.com/yanggak12/Redux-training/blob/main/app/App.js">App.js/a></li>
+  <li><a href="https://github.com/yanggak12/Redux-training/blob/main/app/App.js">App.js</a></li>
 </ul>
