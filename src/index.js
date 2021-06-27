@@ -1,38 +1,31 @@
 import { createStore } from "redux";
 
-const add = document.getElementById("add");
-const minus = document.getElementById("minus");
-const number = document.querySelector("span");
+const form = document.querySelector("form");
+const input = document.querySelector("input");
+const ul = document.querySelector("ul");
 
-number.innerText = 0;
+const ADD_TODO = "ADD_TODO";
+const DELETE_TODO = "DELETE_TODO";
 
-//reducer - 이 함수만 state를 변경할 수 있다! 이것이 리덕스의 매력
-const countModifier = (count = 0, action) => {
-  // return your data
-  if (action.type === "ADD") {
-    return count + 1;
-  } else if (action.type === "MINUS") {
-    return count - 1;
+const reducer = (state, action) => {
+  console.log(action);
+  switch (action.type) {
+    case ADD_TODO:
+      return [];
+    case DELETE_TODO:
+      return [];
+    default:
+      return state;
   }
-  return count;
 };
 
-const countStore = createStore(countModifier);
+const store = createStore(reducer);
 
-const onChange = () => {
-  number.innerText = countStore.getState();
+const onSubmit = (e) => {
+  e.preventDefault();
+  const todo = input.value;
+  input.value = "";
+  store.dispatch({ type: ADD_TODO, text: todo });
 };
 
-countStore.subscribe(onChange);
-
-const handleAdd = () => {
-  countStore.dispatch({ type: "ADD" });
-};
-const handleMinus = () => {
-  countStore.dispatch({ type: "MINUS" });
-};
-
-add.addEventListener("click", handleAdd);
-minus.addEventListener("click", handleMinus);
-
-console.log(countStore.getState());
+form.addEventListener("submit", onSubmit);
