@@ -1,3 +1,3 @@
 # To Do List
 
-with Vanila JavaScript & Redux
+with React & Redux
