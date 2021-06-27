@@ -24,3 +24,7 @@ Training Vanilla-Redux !!
 
     - dispatch는 reducer에 action을 전달해준다.
     - dispatch는 반드시 객체형이어야 한다.
+
+## 5. Subscribe
+
+    - store안의 변화들을 알 수 있게 해준다.
