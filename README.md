@@ -1,3 +1,5 @@
-# To Do List
+# Redux with React
 
-with React & Redux
+## 1. Pure Redux + React Redux
+
+## 2. Use Redux Tool Kit
