@@ -1,4 +1,9 @@
 # Redux-training
+
+# Index
+  - Redux with React Native (this branch)
+  - [Redux with Vanilla JavaScript](https://github.com/yanggak12/Redux-training/tree/vanilla-redux)
+  - [Redux with React](https://github.com/yanggak12/Redux-training/tree/react-redux)
 Redux training with React Native\
 Reference [jeffgukang's react-native tutorial](https://jeffgukang.github.io/react-native-tutorial/docs/state-tutorial/redux-tutorial/index-kr.html)
 
